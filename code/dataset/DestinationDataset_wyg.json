@@ -1,0 +1,20 @@
+{
+	"name": "DestinationDataset_wyg",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DestinationContainer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "03.02",
+				"container": "ganesh"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
